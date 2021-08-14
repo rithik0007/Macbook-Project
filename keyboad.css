@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+* {
+
+  padding : 0;
+  margin : 0 ;
+}
+
+body {
+
+font-family: 'Jomhuria', cursive;
+background-image:url("g.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color : white;
+
+}
+
+.mac1 {
+
+  margin-top: 20px ;
+    align-items: center;
+  display: flex;
+  margin-left: 300px ;
+  margin-right: 300px ;
+
+
+}
+.container {
+  opacity: 0.9;
+  background-image: url("pic2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    display : flex ;
+    flex-direction : column;
+    align-items : center;
+    margin : 1%;
+    margin-top: 2q%;
+    height: 600px;
+    width : 800px;;
+    border : 2px solid black ;
+    border-radius : 35px;
+    background-color :#green;
+    /* animation-name: example;
+    animation-duration: 9s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+   transition: width 2s , height 2s , trasnform 2s ;
+
+}
+
+@media screen and (max-width: 900px)  {
+   .container   {
+  background-color: #808080;
+}
+}
+@keyframes example {
+
+    0% {background-color:gray; }
+   25%  {background-color:yellow; }
+   50%  {background-color:blue; }
+   75%  {background-color:green; }
+   100% {background-color:red; }
+
+ }
+ .container:hover {
+
+              height:700px ;
+              width: 900px;
+              transform: rotateX(180deg);
+}
+*/
+}
+
+#display {
+
+   box-shadow: 2px 2px 2px 2px rgb(0,0,0);
+    background : white ;
+   border-radius : 30px;
+   width : 500px;
+   font-style: italic;
+   text-align: center;;
+   font-weight: 300;
+   font-size: 20px;
+   margin : 20px 0px 20px 130px ;
+   height: 40px;
+   border : 2px solid black ;
+   color : black;
+   transition: width 2s , height 2s , trasnform 2s ;
+
+
+}
+/*
+#display:hover {
+        height: 70px ;
+         width: 600px;
+         transform: rotateX(180deg);
+}
+*/
+
+.main{
+display : grid;
+background-image: url("piccc.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+grid-template-rows : repeat (7,auto);
+border : 1px solid black ;
+box-shadow: inset 0 2px 2px 0 black , inset 2px 0 2px 0 black, inset -2px 2px 0 black , inset 0 -2px 2px 0 black;
+width : 700px;
+height: 330px;
+margin : 3.5% 0 0 0 ;
+border-radius: 12px;
+
+}
+
+
+
+.row1{
+
+display : flex;
+justify-content: space-around;
+margin : 0.5% 0.3% 0 0.3%;
+width : 690px;
+
+
+}
+.operator {
+
+        font-size : 14px;
+        letter-spacing:-0.05em;
+        display: flex;
+        justify-content :center;
+        align-items : flex-end;
+        border-radius : 3px;
+        background-color : rgb(0,0,0);
+        border:none;
+        padding : 0;
+        height: 40px;
+        width: 44px;
+        color : white;
+        cursor : pointer ;
+        font-weight: bold;
+        box-shadow:   1px 1px 1px 1px rgb(0,0,0);
+
+
+}
+
+.touchID {
+    width : 45px;
+    border-radius: 5px;
+    height: 38px;
+    justify-content: flex-end;
+
+}
+
+.row2 , .row3 , .row4 , .row5 , .row6  {
+        display : flex;
+        justify-content : space-around;
+        margin : 0 0.5% 0 0.6% ;
+}
+
+
+.square {
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        border : 3px solid black;
+        background : black;
+        height: 36px;
+        font-size : 23px;
+        width : 38px;
+        border-radius : 5px;
+        box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+}
+
+
+.content {
+
+  font-size: 20px;
+  height: 17px;
+
+}
+
+
+.button{
+  display: inline-block;
+    font-size: 16px;
+    color : white ;
+    background-color: black;
+    border: none;
+    cursor : pointer;
+    margin : 0px 0px 20px 0px ;
+    font-weight: bold;
+
+
+}
+
+.delete {
+
+
+    font-size : 13px;
+    justify-content: flex-end;
+     align-items : flex-end;
+     width : 70px;
+     background-color: black;
+     border :none ;
+     color : white ;
+     cursor : pointer;
+     height: 40px;
+     border-radius: 5px;
+      text-align: right;
+      box-shadow:   1px 1px 1px 1px rgb(0,0,0);
+      font-weight: bold;
+
+
+}
+
+
+.row3 > div,
+.row5 >div ,
+.row6 > div,
+.row4 > div{
+justify-content: center;
+
+
+
+}
+
+.tab:first-of-type{
+
+    align-items : flex-start ;
+    justify-content: flex-end;
+    width : 70px;
+    background-color: black;
+    color : white ;
+    height: 40px;
+    border: none ;
+    cursor : pointer;
+    text-align: left;
+   font-weight: bold;
+    box-shadow:   1px 1px 1px 1px rgb(0,0,0);
+    border-radius: 5px;
+}
+
+.key {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  border : 3px solid black;
+  background-color: black;
+  color : white;
+  height: 40px;
+  font-size : 13px;
+  width : 43px;
+  border-radius : 5px;
+  text-align:center;
+  cursor : pointer;
+  font-weight: bold;
+  box-shadow:   1px 1px 1px 1px rgb(0,0,0);
+  border-radius: 5px;
+
+}
+
+.row4 > .cap {
+    align-items: flex-start;
+    width : 83px;
+    background-color: black;
+    color : white ;
+    border : none ;
+    height: 44px;
+    width: 90px;
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+
+}
+.return {
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  border : 3px solid black;
+  background-color: black;
+  color : white;
+  height: 35px;
+  font-size : 13px;
+  width : 60px;
+  border-radius : 5px;
+  text-align:center;
+  cursor : pointer;
+  font-weight: bold;
+  box-shadow:  1px 1px 1px 1px rgb(0,0,0);
+}
+
+.shift1 {
+
+        text-align: left;
+       font-size: 16px;
+        display: flex;
+        align-items : flex-start;
+        justify-content: flex-end;
+        background-color: black;
+        color : white;
+        box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+        height: 40px;
+        width : 100px;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+
+
+}
+
+.shift2 {
+                       text-align: right;
+                       font-size: 17px;
+                      width : 100px;
+                       display: flex;
+                      align-items : flex-start;
+                       justify-content: flex-end;
+                       background-color: black;
+                       color : white;
+                       box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+                       height: 40px;
+                      cursor: pointer;
+                      border: none;
+                      border-radius: 8px;
+                      font-weight: bold;
+                      text-align: right;
+
+}
+
+
+.fn   {
+    font-size : 12px;
+    display : flex;
+    align-items : flex-start;
+    justify-content: flex-end;
+    width: 43px;
+    font-size: 20px;
+     background-color: black;
+    color : white;
+    border:none;
+    height: 43px;
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+.ctrl {
+
+    display: inline-block;
+    font-size: 9px;
+    color : white ;
+    background-color: black;
+    border: none;
+    cursor : pointer;
+    font-weight: bold;
+    height: 16px;
+    width: 43px;
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+
+}
+
+
+
+.spacebar {
+        width :200px;
+        font-size : 12px;
+        display : flex;
+        align-items : flex-start;
+        justify-content: flex-end;
+        font-size: 20px;
+         background-color: black;
+        color : white;
+        border:none;
+        height: 43px;
+        box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+        border-radius: 5px;
+        cursor: pointer;
+  }
+.arrow {
+
+  display : flex;
+  align-items : flex-start;
+  justify-content: flex-end;
+  font-size: 20px;
+   background-color: black;
+  color : white;
+  border:none;
+  height: 43px;
+  margin-left: 7px ;
+  box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.down-arrow{
+
+  display: inline-block;
+  color : white ;
+  background-color: black;
+  border: none;
+  cursor : pointer;
+  font-weight: bold;
+  height: 25px;
+  width: 35px;
+  box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+
+}
+
+#pad {
+
+    margin : 1% 0;
+    width : 320px;
+    height: 200PX;
+    background-repeat:no-repeat;
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+    background-size: 330px 220px;
+    border-radius: 10px;
+    border : 2px solid black;
+
+
+}
+
+#pad:hover {
+
+background-image: url("mac7.jpg");
+cursor: pointer;
+box-shadow: 1px 1px 1px 1px rgb(0,0,0);
+
+}
+
+@media screen and (max-width : 1200px ) {
+
+  .mac1 {
+
+    margin: auto;
+    padding: auto ;
+  }
+}
